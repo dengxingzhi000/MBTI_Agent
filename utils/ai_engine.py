@@ -29,7 +29,7 @@ from utils.db import (
 logger = logging.getLogger(__name__)
 
 client = OpenAI(
-    api_key=os.getenv("DEEPSEEK_API_KEY", "sk-6236dc74154f4d029f027f004c42ac3d"),
+    api_key=os.getenv("DEEPSEEK_API_KEY", "xxx"),
     base_url="https://api.deepseek.com",
 )
 MODEL            = "deepseek-chat"
